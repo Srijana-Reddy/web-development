@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <style>
+.nav{
+display: flex;
+justify-content: space-between;
+gap: 10px;
+padding: 20px;
+background-color:bisque;
+color:rgb(230, 12, 48);
+
+}
+.main-title{
+    text-align: center;
+    color:rgb(7, 190, 7);
+}
+.nav-links ul{
+padding: 20px;
+list-style-type: none;
+display: flex;
+justify-content: flex-end;
+align-items: flex-end;
+gap: 10px;
+
+}
+.nav a{
+    color:rgb(143, 188, 143);
+    
+}
+.flex-container{
+    display:flex;
+    padding:20px;
+    flex-wrap:wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.flex-item{
+    background-color: white;
+    padding: 15px;
+    width:220px;
+    text-align: center;
+    border-radius:10px;
+    margin: 10px;
+    color: rgb(17, 12, 12);
+    border: 2px solid #685e5e;
+    transition: 0.3s;
+}
+
+.flex-item:hover{
+    transform:scale(1.05);
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+}
+
+.flex-item img{
+    width:100%;
+    height:240px;
+    border-radius:10px;
+    object-fit:cover;
+}
+
+.price{
+    color:green;
+    font-weight:bold;
+}
+
+button{
+    background-color:rgb(60, 255, 0);
+    border-radius: 15px;
+    cursor: pointer;
+    padding:12px 8px;
+    border:none;
+    margin-top:0px;
+}
+
+button:hover{
+    background-color:orange;
+    color:white;
+}
+   </style>
+</head>
+<body>
+    <div class="nav">
+        
+        <h1>WELCOME!</h1>;
+
+        <div class="nav-links">
+            <ul>
+                <li><a href="/home.html" >Home</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+                <li><a href="/service.html">Service</a></li>
+                </ul>
+            </div>
+        </div> 
+    <div class="main-title">
+
+        <h2>Green Grow Agro Products</h2>;
+
+    </div>
+        
+    <div class="flex-container">
+
+    <div class="flex-item">
+        <img src="https://cdn.shopify.com/s/files/1/0722/2059/files/fantac-plus-growth-promoter-file-9804.jpg?v=1772222422&width=256&format=webp">
+        <h3>Fantac Plus Growth Promoter</h3>
+        <p class="price">₹259</p>
+        <button>Buy Now</button>
+    </div>
+
+    <div class="flex-item">
+        <img src="https://cdn.shopify.com/s/files/1/0722/2059/files/bacf-carbon-pro-file-15817.jpg?v=1737452847&width=640&format=webp">
+        <h3>BACF Carbon Pro+</h3>
+        <p class="price">₹1000</p>
+        <button>Buy Now</button>
+    </div>
+
+    <div class="flex-item">
+        <img src="https://cdn.shopify.com/s/files/1/0722/2059/files/vibrant-soilrich-pro-file-15924.jpg?v=1737451177&width=256&format=webp">
+        <h3>Vibrant Solirich PRO</h3>
+        <p class="price">₹555</p>
+        <button>Buy Now</button>
+    </div>
+
+    <div class="flex-item">
+        <img src="https://cdn.shopify.com/s/files/1/0722/2059/files/Reserved_ImageAttachment__13___ProductImage1_32___6de9a0e172a746e5b966c8fe7160c621_1___1.jpg?v=1769149628&width=640&format=webp">
+        <h3>Katyayani Finish It</h3>
+        <p class="price">₹411</p>
+        <button>Buy Now</button>
+    </div>
+    
+</body>
+</html>
